@@ -33,16 +33,15 @@ body {
     color: #ff9a9e !important;
 }
 
-
 .about-section {
     padding: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .fade-in {
-    opacity: 0
+    opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 3s ease-out forwards;
 }
@@ -71,8 +70,8 @@ body {
 }
 
 .text-box {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background*/
-    border: 2px solid rgba(255, 255, 255, 0.3); !important; /* Solid white vorder for testing */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Solid white border for testing */
     border-radius: 15px; /* Rounded corners */
     padding: 25px; /* Space inside the box */
     color: white; /* White text for contrast */
