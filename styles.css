@@ -71,14 +71,14 @@ body {
 }
 
 .text-box {
-    background: rgba(0, 0, 0, 0.7); 
-    border: 2px solid rgba(255, 255, 255, 0.3); 
-    border-radius: 15px; 
-    padding: 25px; 
-    color: white; 
-    text-align: center; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
-    max-width: 600px;
-    margin: 0 auto; 
-    backdrop-filter: blur(5px); 
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background*/
+    border: 2px solid rgba(255, 255, 255, 0.3); !important; /* Solid white vorder for testing */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px; /* Space inside the box */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    max-width: 600px; /* Limit the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    backdrop-filter: blur(5px); /* Blur effect for a modern look */
 }
